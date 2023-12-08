@@ -3,7 +3,6 @@ import ai_image_generator as img_gen
 
 def main():
     # This is a new change to the main.py file
-    # COMMIT TO REPLACE PRIOR COMMIT
     # Changed text prompt for a new story
     text_prompt = "Write a dialogue between a wizard and a robot about magic vs science."
     text_response = chatgpt.generate_text(text_prompt)
